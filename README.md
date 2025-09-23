@@ -1,6 +1,21 @@
-# LearningCenter
+# ACME LearningCenter Application (learning-center)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+## Overview
+This project illustrates the use of Angular Framework to build a learning center application.
+
+## Technologies Used
+- Angular Framework
+- Angular Material
+- Angular Router
+- Angular HttpClient
+- ngx-translate
+- JSON Server
+
+## User Stories
+The user stories for this application can be found in the [docs/user-stories.md](docs/user-stories.md) file.
+
+## Class Diagram
+The class diagram for this application can be found in the [docs/class-diagram.puml](docs/class-diagram.puml) file.
 
 ## Development server
 
