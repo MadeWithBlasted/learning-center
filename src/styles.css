@@ -12,3 +12,7 @@ body {
 .container-with-spacing {
   margin: 10px;
 }
+
+.mat-spacer {
+  flex: 1 1 auto;
+}
