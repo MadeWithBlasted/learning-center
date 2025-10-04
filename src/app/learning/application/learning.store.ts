@@ -50,6 +50,10 @@ export class LearningStore {
     return computed(() => id ? this.categories().find(category => category.id === id) : undefined);
   }
 
+  getCourseById(id: number): Signal<Course | undefined> {
+    return computed(() => id ? this.courses().find(c => c.id === id) : undefined);
+  }
+
   addCategory(category: Category): void {
     this._loadingSignal.set(true);
     this._errorSignal.set(null);
@@ -163,12 +167,23 @@ export class LearningStore {
       next: courses => {
         this._coursesSignal.set(courses);
         this._loadingSignal.set(false);
+        this.assignCategoriesToCourses();
       },
       error: err => {
         this._errorSignal.set(this.formatError(err, 'Failed to load courses'));
         this._loadingSignal.set(false);
       }
     });
+  }
+
+  private assignCategoriesToCourses(): void {
+    this._coursesSignal.update(courses => courses.map(course => this.assignCategoryToCourse(course)));
+  }
+
+  private assignCategoryToCourse(course: Course): Course {
+    const categoryId = course.categoryId ?? 0;
+    course.category = categoryId ? this.getCategoryById(categoryId)() ?? null : null;
+    return course;
   }
 
   private formatError(error: any, fallback: string): string {
